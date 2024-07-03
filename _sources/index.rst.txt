@@ -1,0 +1,37 @@
+.. Lobos-web documentation master file, created by
+   sphinx-quickstart on Wed Jul  3 04:58:41 2024.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+¡Bienvenidos a lobos alamedas!
+==============================
+
+¡Bienvenidos a nuestro día especial en honor a ustedes! 
+Donde exploraremos el fascinante mundo de la programación web! 
+Aquí aprenderemos a construir sitios dinámicos, 
+interactuar con bases de datos y crear experiencias 
+interactivas para los usuarios. Desde HTML y CSS hasta JavaScript,
+entra al emocionante universo de la web.
+ 
+¡Prepárate para sumergirte y desatar tu creatividad digital!
+
+`Arte digital <Arte_digital.html>`_
+
+
+`Actividad. <Actividad.html>`_
+
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contenido:
+
+   Arte_digital
+   Actividad
+
+
+Índices y tablas
+================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`

@@ -1,0 +1,12 @@
+==========
+Actividad.
+==========
+
+QR.
+
+.. image:: _static/img/QR.png
+   :width: 600
+   :alt: Texto alternativo
+
+
+`Actividad <https://studio.code.org/hoc/1>`_

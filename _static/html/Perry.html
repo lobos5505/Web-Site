@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perry el Ornitorrinco</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            position: relative;
+            width: 300px;
+            height: 200px;
+        }
+
+        /* Cuerpo */
+        .body {
+            position: absolute;
+            top: 50px;
+            left: 50px;
+            width: 150px;
+            height: 80px;
+            background-color: #00796B;
+            border-radius: 50px;
+        }
+
+        /* Cabeza */
+        .head {
+            position: absolute;
+            top: 30px;
+            left: 170px;
+            width: 70px;
+            height: 70px;
+            background-color: #00796B;
+            border-radius: 50%;
+        }
+
+        /* Pico */
+        .beak {
+            position: absolute;
+            top: 55px;
+            left: 235px;
+            width: 60px;
+            height: 30px;
+            background-color: #FFD54F;
+            border-radius: 0 20px 20px 0;
+        }
+
+        /* Ojo */
+        .eye {
+            position: absolute;
+            top: 20px;
+            left: 35px;
+            width: 20px;
+            height: 20px;
+            background-color: white;
+            border-radius: 50%;
+        }
+
+        .pupil {
+            position: absolute;
+            top: 10px;
+            left: 5px;
+            width: 10px;
+            height: 10px;
+            background-color: black;
+            border-radius: 50%;
+        }
+
+        /* Sombrero */
+        .hat {
+            position: absolute;
+            top: 15px;
+            left: 175px;
+            width: 70px;
+            height: 20px;
+            background-color: #993300;
+        }
+
+        .brim {
+            position: absolute;
+            top: 30px;
+            left: 160px;
+            width: 100px;
+            height: 10px;
+            background-color: #993300;
+        }
+
+        /* Cola */
+        .tail {
+            position: absolute;
+            top: 70px;
+            left: 0;
+			right: 50px;
+            width: 20px;
+            height: 80px;
+            background-color: #F57C00;
+            transform: rotate(-75deg);
+        }
+        /* Pies */
+        .foot {
+            position: absolute;
+            width: 30px;
+            height: 20px;
+            background-color: #FFD54F;
+            border-radius: 50% 50% 0 0;
+        }
+
+        .foot.left {
+            top: 120px;
+            left: 70px;
+        }
+
+        .foot.right {
+            top: 120px;
+            left: 130px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Cuerpo -->
+        <div class="body"></div>
+        
+        <!-- Cabeza -->
+        <div class="head">
+            <!-- Ojo -->
+            <div class="eye">
+                <div class="pupil"></div>
+            </div>
+        </div>
+        
+        <!-- Pico -->
+        <div class="beak"></div>
+        
+        <!-- Sombrero -->
+        <div class="hat"></div>
+        <div class="brim"></div>
+        
+        <!-- Cola -->
+        <div class="tail"></div>
+        
+        <!-- Pies -->
+        <div class="foot left"></div>
+        <div class="foot right"></div>
+    </div>
+</body>
+</html>

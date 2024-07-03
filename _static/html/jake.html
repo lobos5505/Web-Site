@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jake the Dog</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #87CEEB;
+            margin: 0;
+        }
+        .jake {
+            position: relative;
+            width: 200px;
+            height: 300px;
+        }
+        .head {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 160px;
+            height: 160px;
+            background-color: #FFD700;
+            border-radius: 50%;
+            border: 5px solid #000;
+        }
+        .ears {
+            position: absolute;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 140px;
+            height: 80px;
+        }
+        .ear {
+            position: absolute;
+            width: 30px;
+            height: 50px;
+            background-color: #FFD700;
+            border: 5px solid #000;
+            border-radius: 50%;
+        }
+        .ear.left {
+            left: -20px;
+        }
+        .ear.right {
+            right: -20px;
+        }
+        .body {
+            position: absolute;
+            top: 140px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 130px;
+            height: 180px;
+            background-color: #FFD700;
+            border: 5px solid #000;
+            border-radius: 20px;
+        }
+        .arms {
+            position: absolute;
+            top: 180px;
+            left: 50%;
+            width: 250px;
+            height: 20px;
+            transform: translateX(-50%);
+        }
+        .arm {
+            position: absolute;
+            top: 0;
+            width: 20px;
+            height: 100px;
+            background-color: #FFD700;
+            border: 5px solid #000;
+            border-radius: 10px;
+        }
+        .arm.left {
+            left: -40px;
+        }
+        .arm.right {
+            right: -40px;
+        }
+        .legs {
+            position: absolute;
+            top: 320px;
+            left: 50%;
+            width: 140px;
+            height: 100px;
+            transform: translateX(-50%);
+        }
+        .leg {
+            position: absolute;
+            width: 20px;
+            height: 80px;
+            background-color: #FFD700;
+            border: 5px solid #000;
+            border-radius: 10px;
+        }
+        .leg.left {
+            left: 0;
+        }
+        .leg.right {
+            right: 0;
+        }
+        .face {
+            position: absolute;
+            top: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 80px;
+        }
+        .eye {
+            position: absolute;
+            top: 10px;
+            width: 25px;
+            height: 25px;
+            background-color: #fff;
+            border: 5px solid #000;
+            border-radius: 50%;
+        }
+        .eye.left {
+            left: 5px;
+        }
+        .eye.right {
+            right: 5px;
+        }
+        .pupil {
+            position: absolute;
+            top: 5px;
+            left: 5px;
+            width: 15px;
+            height: 15px;
+            background-color: #000;
+            border-radius: 50%;
+        }
+        .nose {
+            position: absolute;
+            top: 35px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 20px;
+            height: 20px;
+            background-color: #000;
+            border-radius: 50%;
+        }
+        .mouth {
+            position: absolute;
+            top: 55px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60px;
+            height: 20px;
+            background-color: #000;
+            border-radius: 0 0 30px 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="jake">
+        <div class="head">
+            <div class="ears">
+                <div class="ear left"></div>
+                <div class="ear right"></div>
+            </div>
+            <div class="face">
+                <div class="eye left">
+                    <div class="pupil"></div>
+                </div>
+                <div class="eye right">
+                    <div class="pupil"></div>
+                </div>
+                <div class="nose"></div>
+                <div class="mouth"></div>
+            </div>
+        </div>
+        <div class="body"></div>
+        <div class="arms">
+            <div class="arm left"></div>
+            <div class="arm right"></div>
+        </div>
+        <div class="legs">
+            <div class="leg left"></div>
+            <div class="leg right"></div>
+        </div>
+    </div>
+</body>
+</html>

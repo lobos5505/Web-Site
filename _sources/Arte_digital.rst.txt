@@ -1,0 +1,43 @@
+
+Arte Digital.
+=============
+
+
+Imagen 1.
+
+.. image:: _static/img/1.jpg
+   :width: 400
+   :alt: Texto alternativo
+
+Imagen 2.
+
+.. image:: _static/img/2.jpg
+   :width: 400
+   :alt: Texto alternativo
+
+Imagen 3.
+
+.. image:: _static/img/3.jpg
+   :width: 400
+   :alt: Texto alternativo
+
+
+Dibujo con css.
+---------------
+
+`Dibujo 01 web <_static/html/open.html>`_
+
+`Dibujo 02 web <_static/html/Corazon.html>`_
+
+`Dibujo 03 web <_static/html/Pai.html>`_
+
+`Dibujo 04 web <_static/html/Perry.html>`_
+
+`Dibujo 05 web <_static/html/dibujo-figuras.html>`_
+
+`Dibujo 06 web <_static/html/Rs.html>`_
+
+`Dibujo 07 web <_static/html/Dibujo.html>`_
+
+`Dibujo 08 web <_static/html/jake.html>`_
+

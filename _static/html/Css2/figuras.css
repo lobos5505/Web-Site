@@ -1,0 +1,68 @@
+body {
+	
+	background-color: white;
+	display: flex;
+	
+}
+
+
+.cuadrado {
+	background-color: red;
+	width:	100px;
+	height: 100px; 
+	
+
+	
+}
+
+
+
+.rectangulo {
+	background-color: blue;
+	width:	150px;
+	height: 100px; 
+	border: 3px;
+	
+}
+
+
+
+.circulo {
+	background-color: yellow;
+	width:	100px;
+	height: 100px;
+	border-radius: 50%;
+	
+}
+
+
+
+.triangulo {
+	background-color: brown;
+	width:	0px;
+	height: 0px;
+	border-right: 100px solid transparent;
+	border-top: 10px solid transparent;
+	border-left: 100px solid transparent;
+	border-bottom: 100px solid #fae;
+	
+}
+
+.triangulo-invertido {
+	background-color: white;
+	width:	0px;
+	height: 0px;
+	border-top: 50px solid transparent;
+	border-left: 100px solid transparent;
+	border-bottom: 50px solid #fae;
+	
+}
+
+.rombo {
+	width:	100px;
+	height: 100px;
+	margin-left: 100px;
+	transform: rotate(45deg);
+	background: red
+	
+}

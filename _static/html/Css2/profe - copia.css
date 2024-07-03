@@ -1,0 +1,38 @@
+.cuadrado {
+  width: 100px;
+  height: 100px;
+  background: #000;
+}
+.rectangulo {
+  width: 150px;
+  height: 100px;
+  border: 3px solid #555;
+}
+.circulo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: red;
+}
+.triangulo {
+  width: 0;
+  height: 0;
+  border-right: 100px solid transparent;
+  border-top: 10px solid transparent;
+  border-left: 100px solid transparent;
+  border-bottom: 100px solid #f0ad4e;
+}
+.triangulo-invertido {
+  width: 0;
+  height: 0;
+  border-left: 100px solid #f0ad4e;
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+}
+.rombo {
+  width: 100px;
+  height: 100px;
+  margin-left: 100px;
+  transform: rotate(45deg);
+  background: #428bca;
+}
